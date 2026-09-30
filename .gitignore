@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# LaCAM3 build output (rebuild with CMake, see README)
+lacam3/build/
+
+# training / evaluation outputs
+models/
+gifs/
+test_gifs/
+summaries/
+wandb/
+*.log
+progress*.csv
+partial_results*.csv
